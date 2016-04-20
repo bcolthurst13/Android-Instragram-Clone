@@ -6,56 +6,56 @@
         jumboMode="true"
         revision="23.0.1"
         sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
-        <dex dex="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_e57b239cb1ec4e819b0c5241b1c393e1f99ad91c/classes.dex" />
+        <dex dex="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_e57b239cb1ec4e819b0c5241b1c393e1f99ad91c/classes.dex" />
     </item>
     <item
-        jar="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="6456497ebb19dd9ad551bcf35234682301a17778">
-        <dex dex="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_35fea8abf7ee2422af3c26ec125fa5432e27c132/classes.dex" />
-    </item>
-    <item
-        jar="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="true"
-        revision="23.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_581d0808f0d352e14598f911e12bc8444fadccf7/classes.dex" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.0_bad9a07d50d25742daca960a487b5caaf3e4a3a4/classes.dex" />
     </item>
     <item
         jar="/Users/balloo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="true"
         revision="23.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_4f5cb447c971a76b46d5bbb8f63446b4128b9467/classes.dex" />
+        <dex dex="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_4f5cb447c971a76b46d5bbb8f63446b4128b9467/classes.dex" />
     </item>
     <item
-        jar="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jar="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_c50c80f38871bde9ffecda46f347fcc4b1850a3a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.0_fa0f079584cf9683224f30c7114330c3bb950166/classes.dex" />
-    </item>
-    <item
-        jar="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.1"
-        sha1="015206059aafcf48f92643853445354dae8132d6">
-        <dex dex="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_99901e98771dec9854e16c4fb99dff311eb5faf3/classes.dex" />
+        <dex dex="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.0_4c7c9979f2aa7f72e803009e805cd48048a9fcbb/classes.dex" />
     </item>
     <item
         jar="/Users/balloo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="true"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_b3f5e34d8cdada399cfac33947ce84e9dcbe40ff/classes.dex" />
+        <dex dex="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_b3f5e34d8cdada399cfac33947ce84e9dcbe40ff/classes.dex" />
     </item>
     <item
-        jar="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.0_90328fa93e5c00ffb000f3b4b36341997e7cb32e/classes.dex" />
+        sha1="bf34ad06ebf10801c7cd19b3b88ce83f909c1184">
+        <dex dex="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a4e74c5861ecd9cec5b0249fa86aa1a7385bbf65/classes.dex" />
+    </item>
+    <item
+        jar="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="29f2a13b61adb9a02c73e291b48101f90e417e49">
+        <dex dex="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0075ad48835bc20d3defb8137bac00b7207486cb/classes.dex" />
     </item>
 
 </items>

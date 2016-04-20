@@ -8,9 +8,11 @@ import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.parse.FindCallback;
 import com.parse.GetDataCallback;
@@ -24,6 +26,7 @@ import java.util.List;
 public class UserFeed extends AppCompatActivity {
 
     LinearLayout linearLayout;
+    TextView userFeedEmptyTextView;
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     @Override
@@ -33,6 +36,7 @@ public class UserFeed extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         linearLayout = (LinearLayout) findViewById(R.id.imageLayout);
+        userFeedEmptyTextView = (TextView) findViewById(R.id.userFeedEmptyTextView);
 
         Intent i = getIntent();
         String activeUsername = i.getStringExtra("username");
@@ -49,13 +53,15 @@ public class UserFeed extends AppCompatActivity {
             public void done(List<ParseObject> objects, ParseException e) {
                 if(e==null) {
                     if (objects.size() > 0){
+                        //Loop through the objects
                         for(ParseObject object : objects){
                             ParseFile file = (ParseFile) object.get("image");
                             file.getDataInBackground(new GetDataCallback() {
                                 @Override
                                 public void done(byte[] data, ParseException e) {
                                     if (e==null){
-                                        //Many steps later we've finally got our image
+                                        //Many steps later we've finally got our images
+
                                         Bitmap image = BitmapFactory.decodeByteArray(data, 0, data.length);
 
                                         ImageView imageView = new ImageView(getApplicationContext());
@@ -71,6 +77,9 @@ public class UserFeed extends AppCompatActivity {
                                 }
                             });
                         }
+                    } else if (objects.size() == 0) {
+                        //Enable the blank text
+                        userFeedEmptyTextView.setVisibility(View.VISIBLE);
                     }
                 }
             }

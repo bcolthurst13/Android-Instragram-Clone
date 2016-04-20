@@ -2,36 +2,31 @@
 <instant-run
     abi="x86"
     api-level="22"
-    density="xhdpi"
+    density="xxhdpi"
     format="7"
-    timestamp="1460937909718846000" >
+    timestamp="1461111607342740000" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="372" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="142" />
     <task
         name="verifier"
-        duration="0" />
+        duration="20" />
 
     <artifact
-        location="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
+        location="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="1460937550115328000" >
+    <build timestamp="1461111607342740000" >
         <artifact
-            location="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+            location="/Users/balloo/Downloads/Android-Instragram-Clone/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="1460937909718846000" >
-        <artifact
-            location="/Users/balloo/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>
